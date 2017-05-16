@@ -1,0 +1,51 @@
+.cer,.certwo{
+	border-collapse:collapse;
+	float:left;
+	+margin-right:-1px;
+}
+.cer th,.cer td,.certwo th,.certwo td{
+	border:1px solid #777;
+}
+#certwoo{
+	+margin-top:-2px;
+}
+#rightmain caption{
+	font-weight:bold;
+	text-align:left;
+	width: 330px;
+}
+.cer th,.certwo th{
+	border-bottom:1px solid #3d580b;
+	background-color:#8fc629;
+	color:#fff;
+	padding:4px 0px;
+	+padding:3px 0px;
+	width: 230px;
+	height: 18px;
+}
+.cer td,.certwo td{
+	padding: 4px;
+	+padding: 3px;
+	height: 18px;
+}
+#tabletwo{
+	clear:left;
+	padding-top: 9px;
+}
+#tabletwo th.short{
+	width: 110px;
+}
+
+/* resume.php table */
+.resume {
+	border-collapse:collapse;
+    width:700px;
+}
+.resume th,.resume td{
+   border:1px solid #777;
+	padding:4px;
+	font-weight:bold;
+}
+.resume .s_short1{
+   width:500px;
+}

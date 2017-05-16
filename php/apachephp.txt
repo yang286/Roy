@@ -1,0 +1,38 @@
+4. 配置Apache、PHP
+
+安装PHP很简单，但是主要的挑战在于Apache和PHP的协作配置上，否则PHP是难以跨上Apache“这匹枣红马”的。
+1．修改环境变量，path中加入：D:\WAMP\PHP;D:\WAMP\PHP\ext。这很重要，需要让PHP相应的扩展库能够被识别。
+2．复制D:\WAMP\PHP\php.ini-recommended到C:\WINDOWS，并改名为php.ini。用编辑器（这里用EditPlus，个人认为EditPlus非常适合PHP开发）编辑php.ini，相应设置如下（记住先搜寻相应设置项，找到后再开始设置）：
+default_charset ="utf-8"
+extension_dir ="D:/WAMP/PHP/ext"
+把你想要的extension前面的注释分号去掉，比如我的：
+
+    * extension=php_gd2.dll
+    * extension=php_mysql.dll
+    * extension=php_mysqli.dll
+    * extension=php_mbstring.dll
+
+3．用编辑器（这里用EditPlus）编辑Apache的配置文件D:\WAMP\Apache2\conf\httpd.conf：
+
+    * 找到“#LoadModule ssl_module modules/mod_ssl.so”，在后面一行增加：
+
+        LoadModule php5_module D:/WAMP/PHP/php5apache2_2.dll
+
+    * 找到“AddType application/x-gzip .gz .tgz”，在后面一行增加：
+
+        AddType application/x-httpd-php .php .phtml
+
+    * 查找：
+
+       <IfModuledir_module>
+            DirectoryIndex index.html
+       </IfModule>
+       改为：
+      <IfModuledir_module>
+            DirectoryIndex index.html index.htm index.php index.phtml
+      </IfModule>
+      以便Apache能够认到index.php的Welcome文件。
+    * 如果要改前面设置的80端口号，可以修改相应的“Listen”设置。
+4．重启Apache服务，测试一下：
+建立D:\WAMP\Apache2\htdocs\myphp目录，内建一个hello.php文件：
+

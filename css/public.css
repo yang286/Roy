@@ -1,0 +1,57 @@
+#rightmain {
+	position: relative;
+	font-size: 13px;
+	font-family: Verdana, elvetica, sans-serif;
+}
+#rightmain a:link,#rightmain a:visited,#rightmain a:active{
+    color:#f00;
+}
+#rightmain ul{
+	list-style:none;
+}
+#rightmain ol,#rightmain ul{
+	line-height: 22px;
+	margin-left:15px;
+	padding-left: 25px;
+}
+#rightmain ol li div.vimtext{
+   line-height: 12px;
+   background:black;
+   color:white;
+   padding:3px;
+}
+#rightmain ol li div.vimtext .red{
+   font-weight:normal;
+	color:#f00;
+}
+#rightmain ul{
+	margin-left: 0px;
+}
+#rightmain p{
+	text-indent: 2em;
+	line-height:22px;
+}
+.red{
+	color:#f00;
+	font-weight:bolder;
+}
+#rightmain span.big{
+	font-size:14px;
+	line-height: 30px;
+}
+#rightmain span{
+	line-height:22px;
+}
+#rightmain .indent{
+    margin-left: 50px;
+
+}
+#rightmain h3{
+	font-size: 15px;
+}
+#rightmain ol ol{
+	list-style-type:upper-alpha;
+}
+.listA{
+	list-style-type:upper-alpha;
+}

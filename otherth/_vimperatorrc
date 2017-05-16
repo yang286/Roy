@@ -1,0 +1,18 @@
+" 1.2 (created: 2008/08/16 18:51:52)
+" Mappings
+
+" Options
+
+" Abbreviations
+
+source! ~/_vimperatorrc.local
+
+" vim: set ft=vimperator:
+set showtabline=1
+cmap <C-p> <Up>
+cmap <C-n> <Down>
+map gb gT
+set linkbgcolor=#dfdfc3
+set popups=2
+set showtabline=0
+set titlestring=Study English, C, perl, PHP and MySQL!! Time time!!

@@ -1,0 +1,8 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>google china</os:ShortName>
+<os:Description>search in google china</os:Description>
+<os:InputEncoding>GB2312</os:InputEncoding>
+<os:Image width="16" height="16"></os:Image>
+<os:Url type="text/html" method="GET" template="http://www.google.cn/search?q={searchTerms}">
+</os:Url>
+</SearchPlugin>

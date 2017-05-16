@@ -1,0 +1,12 @@
+#rleft{
+    float:left;
+    width: 450px;
+}
+#rright{
+    float:left;
+    border:1px solid #808000;
+    color: #f00;
+    font-weight: bold;
+    width: 260px;
+    padding: 5px;
+}

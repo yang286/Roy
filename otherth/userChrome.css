@@ -1,0 +1,83 @@
+/*
+ * Edit this file and copy it as userChrome.css into your
+ * profile-directory/chrome/
+ */
+
+/*
+ * This file can be used to customize the look of Mozilla's user interface
+ * You should consider using !important on rules which you want to
+ * override default settings.
+ */
+
+/*
+ * Do not remove the @namespace line -- it's required for correct functioning
+ */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
+
+
+/*
+ * Some possible accessibility enhancements:
+ */
+/*
+ * Make all the default font sizes 20 pt:
+ */
+  * {
+    font-size: 11px !important;
+  }
+ 
+/*
+ * Make menu items in particular 15 pt instead of the default size:
+ */
+menupopup > * {
+  font-size: 15pt !important
+}
+
+/*
+ * Give the Location (URL) Bar a fixed-width font
+ */
+ #urlbar {
+    font-family: monospace !important;
+ }
+
+
+/*
+ * Eliminate the throbber and its annoying movement:
+ */
+ #throbber-box {
+   display: none !important;
+ }
+
+/*
+ * set vimperator-commandline color
+ */
+
+#liberator-commandline-command,#liberator-commandline-prompt
+{
+  background: #000 !important;
+  font-size: 12px !important;
+  font-family:"Luxi Mono", monospace !important;
+}
+.hl-Normal, .hl-Title {
+	background: #000 !important;
+	color: #6dff00 !important;
+}
+.hl-ModeMsg{
+	background: #000 !important;
+}
+.hl-ErrorMsg, .hl-Warning{
+	background:#000 !important;
+	color: red !important;
+}
+
+/*
+ * Show statusbar in fullscreen mode
+ */
+#status-bar {
+	background:#2f2f2f !important;
+	visibility:visible;
+}
+
+/*
+ * For more examples see http://www.mozilla.org/unix/customizing.html
+ */
+ 
