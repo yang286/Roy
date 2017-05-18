@@ -45,6 +45,7 @@
 				<li><a href="" title="Homepage" id="current">主页 Home </a></li>
 				<li><a href="english" title="English">English </a></li>
 				<li><a href="c" title="C Language">C Language </a></li>
+
 				<li><a href="linux" title="Linux OS">Linux OS </a></li>
 				<li><a href="network" title="Network">Network </a></li>
 				<li><a href="php" title="PHP">PHP </a></li>
@@ -104,3 +105,6 @@ dsdkj
 -->
 	</body>
 </html>
+
+add a email:yang286@gmail.com
+that is it. to be changed.
