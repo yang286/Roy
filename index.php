@@ -46,6 +46,7 @@
 				<li><a href="" title="Homepage" id="current">主页 Home </a></li>
 				<li><a href="english" title="English">English </a></li>
 				<li><a href="c" title="C Language">C Language </a></li>
+
 				<li><a href="linux" title="Linux OS">Linux OS </a></li>
 				<li><a href="network" title="Network">Network </a></li>
 				<li><a href="php" title="PHP">PHP </a></li>
@@ -93,7 +94,11 @@
 
 <!--
 04/14/2008 Mon 
+<<<<<<< HEAD
 10:05 PM   
+=======
+10:05 PM 
+>>>>>>> master
 
 11:03 AM 06/12/2008 Thu a
 
@@ -106,6 +111,7 @@ dsdkj
 	</body>
 </html>
 
+<<<<<<< HEAD
 
 
 Roy, Yang
@@ -117,3 +123,5 @@ flksa fsaf
 
 	print "The input was $madonna ";
 flksa fsaf 
+=======
+>>>>>>> master
