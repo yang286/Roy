@@ -106,5 +106,3 @@ dsdkj
 	</body>
 </html>
 
-add a email:yang286@gmail.com
-that is it. to be changed.
