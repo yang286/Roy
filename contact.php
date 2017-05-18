@@ -52,7 +52,7 @@
 				<li><a href="aboutme.php" title="About me">About me 关于我 </a></li>
 			</ul>
 		</div>
-
+aa
 		<div id="layout">
 			<div id="leftmain">
 				<ul>

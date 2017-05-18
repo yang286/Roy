@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
+
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="verify-v1" content="STgBDDrd86tISt746hCwuZ18KAsPmWxCWsEth9a/nTU=" />
 		<meta name="description" content="kinglon yang的个人主页,English, C language, linux os, network, php, div css, vim, iphone," />
@@ -48,7 +49,7 @@
 				<li><a href="linux" title="Linux OS">Linux OS </a></li>
 				<li><a href="network" title="Network">Network </a></li>
 				<li><a href="php" title="PHP">PHP </a></li>
-				<li><a href="javascript" title="JavaScript"> JavaScript </a></li>
+				<li><a href="javascript" title="JavaScript">JavaScript </a></li>
 				<li><a href="vim" title="VIM">VIM </a></li>
 				<li><a href="iphone" title="iPhone">iPhone </a></li>
 				<li><a href="aboutme.php" title="About me">About me 关于我 </a></li>
@@ -91,8 +92,8 @@
 
 
 <!--
-04/14/2008 Mon 靠靠
-10:05 PM 我u五吴i我持吃你哈a弗兰克i凹镜
+04/14/2008 Mon 
+10:05 PM   
 
 11:03 AM 06/12/2008 Thu a
 
@@ -104,3 +105,15 @@ dsdkj
 -->
 	</body>
 </html>
+
+
+
+Roy, Yang
+chuang Tao, He
+John, Smith
+Yong hao, luo.
+
+flksa fsaf 
+
+	print "The input was $madonna ";
+flksa fsaf 
