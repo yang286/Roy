@@ -111,17 +111,3 @@ dsdkj
 	</body>
 </html>
 
-<<<<<<< HEAD
-
-
-Roy, Yang
-chuang Tao, He
-John, Smith
-Yong hao, luo.
-
-flksa fsaf 
-
-	print "The input was $madonna ";
-flksa fsaf 
-=======
->>>>>>> master
